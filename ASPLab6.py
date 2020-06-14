@@ -6,7 +6,7 @@ class Vehicle:
         self.maximum_velocity = maximum_velocity
 
     def drive(self):
-        print("The vehicle is in driving mode now.")
+        print("The vehicle is in driving mode.")
 
 class ElectricCar(Vehicle):
     def __init__(self, number_of_wheels, seating_capacity, maximum_velocity):
